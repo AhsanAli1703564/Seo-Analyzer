@@ -3,14 +3,13 @@ import { Link } from 'react-router-dom';
 const LandingPage = () => {
   return (
     <div className="min-h-screen bg-white">
-      {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl font-bold mb-6 leading-tight">
             Supercharge Your SEO With the Ultimate All-In-One Optimization Tool
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Analyze your website, discover high-value keywords, and outperform your competitors—all in one powerful, easy-to-use platform.
+            Analyze your website, discover high value keywords, and outperform your competitors all in one powerful, easy-to-use platform.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 mb-6">
             <Link to="/seo-analyzer" className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
@@ -24,7 +23,6 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Value Proposition */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -32,7 +30,7 @@ const LandingPage = () => {
               Built for creators, marketers, and businesses who want real SEO growth
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Without paying for overpriced tools. Our platform combines AI-powered keyword research, deep on-page SEO auditing, performance scoring, and competitor insights—all in one clean, fast interface.
+              Without paying for overpriced tools. Our platform combines AI powered keyword research, deep on-page SEO auditing, performance scoring, and competitor insights all in one clean, fast interface.
             </p>
           </div>
 
@@ -40,7 +38,7 @@ const LandingPage = () => {
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="text-4xl mb-4">🔍</div>
               <h3 className="text-xl font-semibold mb-2">AI Keyword Discovery</h3>
-              <p className="text-gray-600">Find long-tail, low-competition keywords powered by live autocomplete data & real search intent.</p>
+              <p className="text-gray-600">Find long-tail, low competition keywords powered by live autocomplete data & real search intent.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="text-4xl mb-4">📊</div>
@@ -71,7 +69,6 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Who Is This For */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -107,7 +104,6 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Why Choose Our Tool */}
       <section className="py-20 bg-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -142,7 +138,6 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* How It Works */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -173,7 +168,6 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Testimonials */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -196,7 +190,6 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Pricing */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -231,7 +224,6 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Final CTA */}
       <section className="py-20 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Improve Your SEO?</h2>
